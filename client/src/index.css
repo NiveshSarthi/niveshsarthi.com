@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #C5A059;
+  --charcoal: #1A1C1E;
+  --background-dark: #0A0C10;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-charcoal: var(--charcoal);
+  --color-background-dark: var(--background-dark);
+  --font-display: "Cinzel", serif;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Montserrat", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#050505] text-slate-100 font-sans selection:bg-primary selection:text-white overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+
+  .nav-link {
+    @apply relative text-[11px] font-medium tracking-[0.25em] text-white uppercase transition-colors duration-300 hover:text-primary;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute w-0 h-[1px] -bottom-2 left-0 bg-primary transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .hero-gradient {
+    background: linear-gradient(to bottom, rgba(10, 12, 16, 0.8) 0%, rgba(10, 12, 16, 0.2) 40%, rgba(10, 12, 16, 0.2) 60%, rgba(26, 28, 30, 1) 100%);
+  }
+}

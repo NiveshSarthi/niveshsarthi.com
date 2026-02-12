@@ -60,7 +60,7 @@ const Footer = () => {
                                 </p>
                             </div>
                             <div>
-                                <p className="text-[10px] text-slate-500 uppercase tracking-widest mb-2 font-bold">Concierge</p>
+                                <p className="text-[10px] text-slate-500 uppercase tracking-widest mb-2 font-bold">Luxe Concierge</p>
                                 <p className="text-sm text-slate-300 flex items-center gap-2"><Phone size={14} className="text-primary" /> +91 95600 31319</p>
                                 <p className="text-sm text-slate-300 flex items-center gap-2 underline underline-offset-4 decoration-primary/30"><Mail size={14} className="text-primary" /> info.niveshsarthi@gmail.com</p>
                             </div>

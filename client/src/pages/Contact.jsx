@@ -90,7 +90,6 @@ const Contact = () => {
                             </div>
                             <h4 className="text-white font-display text-xs tracking-widest uppercase mb-4 font-bold">Luxe Concierge</h4>
                             <p className="text-slate-400 text-sm leading-relaxed font-serif">
-                                +91 95600 31319<br />
                                 +91 95600 31319
                             </p>
                         </div>
@@ -102,8 +101,7 @@ const Contact = () => {
                             </div>
                             <h4 className="text-white font-display text-xs tracking-widest uppercase mb-4 font-bold">Electronic Mail</h4>
                             <p className="text-slate-400 text-sm leading-relaxed font-serif">
-                                info.niveshsarthi@gmail.com<br />
-                                contact@niveshsarthi.com
+                                info.niveshsarthi@gmail.com
                             </p>
                         </div>
 
@@ -114,7 +112,7 @@ const Contact = () => {
                             </div>
                             <h4 className="text-white font-display text-xs tracking-widest uppercase mb-4 font-bold">Visiting Hours</h4>
                             <p className="text-slate-400 text-sm leading-relaxed font-serif">
-                                Mon - Sat: 10AM - 7PM<br />
+                                Tue - Sun: 10AM - 6PM<br />
                                 Sunday: Appointment Only
                             </p>
                         </div>

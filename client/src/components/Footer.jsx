@@ -1,9 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Globe, Share2 } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook, Twitter } from 'lucide-react';
 import logo from '../assets/logo.png';
 
 const Footer = () => {
+    const socialLinks = [
+        { Icon: Instagram, href: "https://www.instagram.com/niveshsarthi_/", label: "Instagram" },
+        { Icon: Linkedin, href: "https://www.linkedin.com/in/nivesh-sarthi", label: "LinkedIn" },
+        { Icon: Facebook, href: "https://www.facebook.com/niveshsarthii", label: "Facebook" },
+        { Icon: Twitter, href: "https://twitter.com/niveshsarthi", label: "Twitter" }
+    ];
+
     return (
         <footer className="bg-background-dark/80 backdrop-blur-md text-white pt-24 pb-12 px-8 lg:px-24 border-t border-white/5" id="contact">
             <div className="max-w-7xl mx-auto">
@@ -16,9 +23,16 @@ const Footer = () => {
                             The definitive name in high-end real estate. Our mission is to create spaces that serve as a canvas for a life well-lived, merging global standards with local heritage.
                         </p>
                         <div className="flex gap-6">
-                            {[Globe, Share2, Mail].map((Icon, idx) => (
-                                <a key={idx} href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:border-primary hover:text-primary transition-all">
-                                    <Icon size={18} />
+                            {socialLinks.map(({ Icon, href, label }) => (
+                                <a
+                                    key={label}
+                                    href={href}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:border-primary hover:text-primary transition-all group"
+                                    aria-label={label}
+                                >
+                                    <Icon size={18} className="group-hover:scale-110 transition-transform" />
                                 </a>
                             ))}
                         </div>

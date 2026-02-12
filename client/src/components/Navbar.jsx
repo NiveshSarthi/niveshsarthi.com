@@ -31,8 +31,6 @@ const Navbar = () => {
                 <Link to="/about" className="nav-link">About Us</Link>
                 <Link to="/testimonials" className="nav-link">What People Say</Link>
                 <Link to="/properties" className="nav-link">Properties</Link>
-                <Link to="/properties" className="nav-link">Residential</Link>
-                <Link to="/properties" className="nav-link">Commercial</Link>
                 <Link
                     to="/contact"
                     className="nav-link border border-primary/40 px-6 py-2 hover:bg-primary hover:text-white transition-all"
@@ -55,8 +53,6 @@ const Navbar = () => {
                     <Link to="/about" className="nav-link text-center" onClick={() => setIsMenuOpen(false)}>About Us</Link>
                     <Link to="/testimonials" className="nav-link text-center" onClick={() => setIsMenuOpen(false)}>What People Say</Link>
                     <Link to="/properties" className="nav-link text-center" onClick={() => setIsMenuOpen(false)}>Properties</Link>
-                    <Link to="/properties" className="nav-link text-center" onClick={() => setIsMenuOpen(false)}>Residential</Link>
-                    <Link to="/properties" className="nav-link text-center" onClick={() => setIsMenuOpen(false)}>Commercial</Link>
                     <Link
                         to="/contact"
                         className="border border-primary/40 px-6 py-3 text-primary text-center tracking-[0.3em] uppercase text-xs"

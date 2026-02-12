@@ -120,15 +120,6 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    {/* Social Links context */}
-                    <div className="pt-16 border-t border-white/5 text-center">
-                        <h4 className="text-white font-display text-xs tracking-widest uppercase mb-8 font-bold">Digital Presence</h4>
-                        <div className="flex justify-center gap-12">
-                            {['Instagram', 'LinkedIn', 'Twitter', 'Facebook'].map((social) => (
-                                <a key={social} href="#" className="text-[10px] tracking-[0.3em] uppercase text-slate-500 hover:text-primary transition-colors font-bold border-b border-transparent hover:border-primary pb-1">{social}</a>
-                            ))}
-                        </div>
-                    </div>
                 </motion.div>
             </section>
         </main>

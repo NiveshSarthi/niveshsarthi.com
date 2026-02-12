@@ -35,7 +35,7 @@ const ContactForm = ({ isPage = false }) => {
         }
     };
 
-    const FormContent = () => (
+    const FormContent = ({ isPage, formData, setFormData, status, handleSubmit }) => (
         <div className={`grid ${isPage ? 'lg:grid-cols-1' : 'lg:grid-cols-2'} gap-16 md:gap-24 items-center`}>
             {!isPage && (
                 <div>
@@ -274,17 +274,50 @@ const ContactForm = ({ isPage = false }) => {
         </div>
     );
 
-    if (isPage) {
-        return <FormContent />;
-    }
+    const ContactForm = ({ isPage = false }) => {
+        const [formData, setFormData] = useState({
+            name: '',
+            email: '',
+            phone: '',
+            subject: '',
+            budget: '',
+            propertyType: '',
+            location: '',
+            referral: '',
+            message: ''
+        });
+        const [status, setStatus] = useState('idle'); // idle, loading, success, error
 
-    return (
-        <section className="py-32 px-8 lg:px-24 bg-transparent border-t border-white/5" id="contact-form">
-            <div className="max-w-7xl mx-auto bg-white/5 backdrop-blur-sm p-12 rounded-2xl border border-white/10">
-                <FormContent />
-            </div>
-        </section>
-    );
+        const handleSubmit = async (e) => {
+            e.preventDefault();
+            setStatus('loading');
+            try {
+                await axios.post('http://localhost:5000/api/contacts', formData);
+                setStatus('success');
+                setFormData({
+                    name: '', email: '', phone: '', subject: '',
+                    budget: '', propertyType: '', location: '', referral: '',
+                    message: ''
+                });
+                setTimeout(() => setStatus('idle'), 5000);
+            } catch (err) {
+                console.error(err);
+                setStatus('error');
+            }
+        };
+
+        if (isPage) {
+            return <FormContent isPage={isPage} formData={formData} setFormData={setFormData} status={status} handleSubmit={handleSubmit} />;
+        }
+
+        return (
+            <section className="py-32 px-8 lg:px-24 bg-transparent border-t border-white/5" id="contact-form">
+                <div className="max-w-7xl mx-auto bg-white/5 backdrop-blur-sm p-12 rounded-2xl border border-white/10">
+                    <FormContent isPage={isPage} formData={formData} setFormData={setFormData} status={status} handleSubmit={handleSubmit} />
+                </div>
+            </section>
+        );
+    };
 };
 
 export default ContactForm;

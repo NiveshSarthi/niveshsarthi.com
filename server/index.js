@@ -4,7 +4,14 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const path = require('path');
 
-dotenv.config();
+dotenv.config({ path: path.join(__dirname, '.env') });
+
+// Environment Variable Validation
+if (!process.env.MONGODB_URI) {
+    console.error('ERROR: MONGODB_URI is not defined in the environment variables.');
+    console.error('Current Environment:', process.env.NODE_ENV);
+    process.exit(1);
+}
 
 const app = express();
 const PORT = process.env.PORT || 5000;

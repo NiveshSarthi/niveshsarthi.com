@@ -1,5 +1,6 @@
 # Build Stage for Frontend
 FROM node:20-alpine AS build-stage
+ENV NODE_ENV=development
 WORKDIR /app/client
 COPY client/package*.json ./
 RUN npm install

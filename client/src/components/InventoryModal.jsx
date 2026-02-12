@@ -54,6 +54,7 @@ const InventoryModal = ({ isOpen, onClose, property }) => {
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.9, y: 20 }}
                         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+                        onClick={(e) => e.stopPropagation()}
                         className="relative w-full max-w-5xl bg-[#0a0a0a] border border-white/10 rounded-lg overflow-hidden flex flex-col md:flex-row min-h-[500px]"
                     >
                         {/* Left Side: Imagery */}
@@ -77,7 +78,8 @@ const InventoryModal = ({ isOpen, onClose, property }) => {
                             {/* Close Button */}
                             <button
                                 onClick={onClose}
-                                className="absolute top-6 right-6 text-white/40 hover:text-white transition-colors"
+                                className="absolute top-6 right-6 z-50 text-white/40 hover:text-white transition-colors cursor-pointer"
+                                aria-label="Close modal"
                             >
                                 <X size={24} />
                             </button>

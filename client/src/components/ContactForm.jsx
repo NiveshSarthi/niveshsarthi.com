@@ -102,141 +102,169 @@ const ContactForm = ({ isPage = false }) => {
                         {/* Row 1: Basic Info */}
                         <div className="grid md:grid-cols-2 gap-12">
                             <div className="relative group/input">
-                                <label className="text-[10px] tracking-[0.4em] text-primary/40 uppercase font-black mb-1 block group-focus-within/input:text-primary transition-all duration-300">Full Name</label>
-                                <input
-                                    type="text"
-                                    placeholder="Enter your name"
-                                    className="w-full bg-transparent border-b border-white/5 py-4 text-xs tracking-widest uppercase text-white outline-none focus:border-primary/50 transition-all duration-500 font-medium placeholder:text-slate-800"
-                                    value={formData.name}
-                                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                                    required
-                                />
-                                <div className="absolute bottom-0 left-0 h-[1px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-1000"></div>
+                                <label className="text-[11px] tracking-[0.3em] text-primary uppercase font-bold mb-3 block group-focus-within/input:text-white transition-all duration-300">Full Name</label>
+                                <div className="relative">
+                                    <input
+                                        type="text"
+                                        placeholder="EX: MAHARAJA SINGH"
+                                        className="w-full bg-white/[0.03] border border-white/10 px-6 py-4 text-[11px] tracking-widest uppercase text-white outline-none focus:border-primary/50 focus:bg-white/[0.07] transition-all duration-500 font-medium placeholder:text-slate-600"
+                                        value={formData.name}
+                                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                                        required
+                                    />
+                                    <div className="absolute bottom-0 left-0 h-[2px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-700"></div>
+                                </div>
                             </div>
                             <div className="relative group/input">
-                                <label className="text-[10px] tracking-[0.4em] text-primary/40 uppercase font-black mb-1 block group-focus-within/input:text-primary transition-all duration-300">Email Address</label>
-                                <input
-                                    type="email"
-                                    placeholder="your@email.com"
-                                    className="w-full bg-transparent border-b border-white/5 py-4 text-xs tracking-widest uppercase text-white outline-none focus:border-primary/50 transition-all duration-500 font-medium placeholder:text-slate-800"
-                                    value={formData.email}
-                                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                                    required
-                                />
-                                <div className="absolute bottom-0 left-0 h-[1px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-1000"></div>
+                                <label className="text-[11px] tracking-[0.3em] text-primary uppercase font-bold mb-3 block group-focus-within/input:text-white transition-all duration-300">Email Address</label>
+                                <div className="relative">
+                                    <input
+                                        type="email"
+                                        placeholder="YOUR@LEGACY.COM"
+                                        className="w-full bg-white/[0.03] border border-white/10 px-6 py-4 text-[11px] tracking-widest uppercase text-white outline-none focus:border-primary/50 focus:bg-white/[0.07] transition-all duration-500 font-medium placeholder:text-slate-600"
+                                        value={formData.email}
+                                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                                        required
+                                    />
+                                    <div className="absolute bottom-0 left-0 h-[2px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-700"></div>
+                                </div>
                             </div>
                         </div>
 
                         {/* Row 2: Phone & Subject */}
                         <div className="grid md:grid-cols-2 gap-12">
                             <div className="relative group/input">
-                                <label className="text-[10px] tracking-[0.4em] text-primary/40 uppercase font-black mb-1 block group-focus-within/input:text-primary transition-all duration-300">Phone Number</label>
-                                <input
-                                    type="tel"
-                                    placeholder="+91 0000 000 000"
-                                    className="w-full bg-transparent border-b border-white/5 py-4 text-xs tracking-widest uppercase text-white outline-none focus:border-primary/50 transition-all duration-500 font-medium placeholder:text-slate-800"
-                                    value={formData.phone}
-                                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                                    required
-                                />
-                                <div className="absolute bottom-0 left-0 h-[1px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-1000"></div>
+                                <label className="text-[11px] tracking-[0.3em] text-primary uppercase font-bold mb-3 block group-focus-within/input:text-white transition-all duration-300">Phone Number</label>
+                                <div className="relative">
+                                    <input
+                                        type="tel"
+                                        placeholder="+91 0000 000 000"
+                                        className="w-full bg-white/[0.03] border border-white/10 px-6 py-4 text-[11px] tracking-widest uppercase text-white outline-none focus:border-primary/50 focus:bg-white/[0.07] transition-all duration-500 font-medium placeholder:text-slate-600"
+                                        value={formData.phone}
+                                        onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                                        required
+                                    />
+                                    <div className="absolute bottom-0 left-0 h-[2px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-700"></div>
+                                </div>
                             </div>
                             <div className="relative group/input">
-                                <label className="text-[10px] tracking-[0.4em] text-primary/40 uppercase font-black mb-1 block group-focus-within/input:text-primary transition-all duration-300">Subject</label>
-                                <input
-                                    type="text"
-                                    placeholder="Consultation"
-                                    className="w-full bg-transparent border-b border-white/5 py-4 text-xs tracking-widest uppercase text-white outline-none focus:border-primary/50 transition-all duration-500 font-medium placeholder:text-slate-800"
-                                    value={formData.subject}
-                                    onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                                />
-                                <div className="absolute bottom-0 left-0 h-[1px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-1000"></div>
+                                <label className="text-[11px] tracking-[0.3em] text-primary uppercase font-bold mb-3 block group-focus-within/input:text-white transition-all duration-300">Subject / Inquiry Type</label>
+                                <div className="relative">
+                                    <input
+                                        type="text"
+                                        placeholder="EX: PRIVATE CONSULTATION"
+                                        className="w-full bg-white/[0.03] border border-white/10 px-6 py-4 text-[11px] tracking-widest uppercase text-white outline-none focus:border-primary/50 focus:bg-white/[0.07] transition-all duration-500 font-medium placeholder:text-slate-600"
+                                        value={formData.subject}
+                                        onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
+                                    />
+                                    <div className="absolute bottom-0 left-0 h-[2px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-700"></div>
+                                </div>
                             </div>
                         </div>
 
                         {/* Row 3: Qualification (Budget & Property Type) */}
                         <div className="grid md:grid-cols-2 gap-12">
                             <div className="relative group/input">
-                                <label className="text-[10px] tracking-[0.4em] text-primary/40 uppercase font-black mb-1 block group-focus-within/input:text-primary transition-all duration-300">Expected Investment Range (Budget)</label>
-                                <select
-                                    className="w-full bg-transparent border-b border-white/5 py-4 text-xs tracking-widest uppercase text-white outline-none focus:border-primary/50 transition-all duration-500 font-medium appearance-none"
-                                    value={formData.budget}
-                                    onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
-                                >
-                                    <option value="" disabled className="bg-charcoal text-slate-500">Select Budget Range</option>
-                                    <option value="Under 5 Cr" className="bg-charcoal">Under ₹5 Cr</option>
-                                    <option value="5 - 10 Cr" className="bg-charcoal">₹5 Cr - ₹10 Cr</option>
-                                    <option value="10 - 25 Cr" className="bg-charcoal">₹10 Cr - ₹25 Cr</option>
-                                    <option value="Above 25 Cr" className="bg-charcoal">₹25 Cr +</option>
-                                </select>
-                                <div className="absolute bottom-0 left-0 h-[1px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-1000"></div>
+                                <label className="text-[11px] tracking-[0.3em] text-primary uppercase font-bold mb-3 block group-focus-within/input:text-white transition-all duration-300">Expected Investment Range</label>
+                                <div className="relative">
+                                    <select
+                                        className="w-full bg-white/[0.03] border border-white/10 px-6 py-4 text-[11px] tracking-widest uppercase text-white outline-none focus:border-primary/50 focus:bg-white/[0.07] transition-all duration-500 font-medium appearance-none cursor-pointer"
+                                        value={formData.budget}
+                                        onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
+                                    >
+                                        <option value="" disabled className="bg-charcoal text-slate-500">SELECT BUDGET RANGE</option>
+                                        <option value="Under 5 Cr" className="bg-charcoal">UNDER ₹5 CR</option>
+                                        <option value="5 - 10 Cr" className="bg-charcoal">₹5 CR - ₹10 CR</option>
+                                        <option value="10 - 25 Cr" className="bg-charcoal">₹10 CR - ₹25 CR</option>
+                                        <option value="Above 25 Cr" className="bg-charcoal">₹25 CR +</option>
+                                    </select>
+                                    <div className="absolute bottom-0 left-0 h-[2px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-700"></div>
+                                    <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-primary/40">
+                                        <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1L5 5L9 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
                             </div>
                             <div className="relative group/input">
-                                <label className="text-[10px] tracking-[0.4em] text-primary/40 uppercase font-black mb-1 block group-focus-within/input:text-primary transition-all duration-300">Property Type Preference</label>
-                                <select
-                                    className="w-full bg-transparent border-b border-white/5 py-4 text-xs tracking-widest uppercase text-white outline-none focus:border-primary/50 transition-all duration-500 font-medium appearance-none"
-                                    value={formData.propertyType}
-                                    onChange={(e) => setFormData({ ...formData, propertyType: e.target.value })}
-                                >
-                                    <option value="" disabled className="bg-charcoal text-slate-500">Select Property Type</option>
-                                    <option value="Ultra Luxury Villa" className="bg-charcoal">Ultra Luxury Villa</option>
-                                    <option value="Premium Penthouse" className="bg-charcoal">Premium Penthouse</option>
-                                    <option value="Strategic Commercial" className="bg-charcoal">Strategic Commercial</option>
-                                    <option value="Bespoke Plots" className="bg-charcoal">Bespoke Plots</option>
-                                </select>
-                                <div className="absolute bottom-0 left-0 h-[1px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-1000"></div>
+                                <label className="text-[11px] tracking-[0.3em] text-primary uppercase font-bold mb-3 block group-focus-within/input:text-white transition-all duration-300">Property Type Preference</label>
+                                <div className="relative">
+                                    <select
+                                        className="w-full bg-white/[0.03] border border-white/10 px-6 py-4 text-[11px] tracking-widest uppercase text-white outline-none focus:border-primary/50 focus:bg-white/[0.07] transition-all duration-500 font-medium appearance-none cursor-pointer"
+                                        value={formData.propertyType}
+                                        onChange={(e) => setFormData({ ...formData, propertyType: e.target.value })}
+                                    >
+                                        <option value="" disabled className="bg-charcoal text-slate-500">SELECT PROPERTY TYPE</option>
+                                        <option value="Ultra Luxury Villa" className="bg-charcoal">ULTRA LUXURY VILLA</option>
+                                        <option value="Premium Penthouse" className="bg-charcoal">PREMIUM PENTHOUSE</option>
+                                        <option value="Strategic Commercial" className="bg-charcoal">STRATEGIC COMMERCIAL</option>
+                                        <option value="Bespoke Plots" className="bg-charcoal">BESPOKE PLOTS</option>
+                                    </select>
+                                    <div className="absolute bottom-0 left-0 h-[2px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-700"></div>
+                                    <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-primary/40">
+                                        <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 1L5 5L9 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                         {/* Row 4: Location & Source */}
                         <div className="grid md:grid-cols-2 gap-12">
                             <div className="relative group/input">
-                                <label className="text-[10px] tracking-[0.4em] text-primary/40 uppercase font-black mb-1 block group-focus-within/input:text-primary transition-all duration-300">Preferred Location / Region</label>
-                                <input
-                                    type="text"
-                                    placeholder="e.g., Golf Course Road, Gurugram"
-                                    className="w-full bg-transparent border-b border-white/5 py-4 text-xs tracking-widest uppercase text-white outline-none focus:border-primary/50 transition-all duration-500 font-medium placeholder:text-slate-800"
-                                    value={formData.location}
-                                    onChange={(e) => setFormData({ ...formData, location: e.target.value })}
-                                />
-                                <div className="absolute bottom-0 left-0 h-[1px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-1000"></div>
+                                <label className="text-[11px] tracking-[0.3em] text-primary uppercase font-bold mb-3 block group-focus-within/input:text-white transition-all duration-300">Preferred Location / Region</label>
+                                <div className="relative">
+                                    <input
+                                        type="text"
+                                        placeholder="E.G., GOLF COURSE ROAD, GURUGRAM"
+                                        className="w-full bg-white/[0.03] border border-white/10 px-6 py-4 text-[11px] tracking-widest uppercase text-white outline-none focus:border-primary/50 focus:bg-white/[0.07] transition-all duration-500 font-medium placeholder:text-slate-600"
+                                        value={formData.location}
+                                        onChange={(e) => setFormData({ ...formData, location: e.target.value })}
+                                    />
+                                    <div className="absolute bottom-0 left-0 h-[2px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-700"></div>
+                                </div>
                             </div>
                             <div className="relative group/input">
-                                <label className="text-[10px] tracking-[0.4em] text-primary/40 uppercase font-black mb-1 block group-focus-within/input:text-primary transition-all duration-300">How did you discover us?</label>
-                                <input
-                                    type="text"
-                                    placeholder="e.g., Instagram, Referral, Google"
-                                    className="w-full bg-transparent border-b border-white/5 py-4 text-xs tracking-widest uppercase text-white outline-none focus:border-primary/50 transition-all duration-500 font-medium placeholder:text-slate-800"
-                                    value={formData.referral}
-                                    onChange={(e) => setFormData({ ...formData, referral: e.target.value })}
-                                />
-                                <div className="absolute bottom-0 left-0 h-[1px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-1000"></div>
+                                <label className="text-[11px] tracking-[0.3em] text-primary uppercase font-bold mb-3 block group-focus-within/input:text-white transition-all duration-300">How did you discover us?</label>
+                                <div className="relative">
+                                    <input
+                                        type="text"
+                                        placeholder="E.G., INSTAGRAM, REFERRAL, GOOGLE"
+                                        className="w-full bg-white/[0.03] border border-white/10 px-6 py-4 text-[11px] tracking-widest uppercase text-white outline-none focus:border-primary/50 focus:bg-white/[0.07] transition-all duration-500 font-medium placeholder:text-slate-600"
+                                        value={formData.referral}
+                                        onChange={(e) => setFormData({ ...formData, referral: e.target.value })}
+                                    />
+                                    <div className="absolute bottom-0 left-0 h-[2px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-700"></div>
+                                </div>
                             </div>
                         </div>
 
                         <div className="relative group/input">
-                            <label className="text-[10px] tracking-[0.4em] text-primary/40 uppercase font-black mb-1 block group-focus-within/input:text-primary transition-all duration-300">Tell Us Your Vision / Message</label>
-                            <textarea
-                                rows="4"
-                                placeholder="How can we assist you?"
-                                className="w-full bg-transparent border-b border-white/5 py-4 text-xs tracking-widest uppercase text-white outline-none focus:border-primary/50 transition-all duration-500 font-medium placeholder:text-slate-800 resize-none"
-                                value={formData.message}
-                                onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                                required
-                            ></textarea>
-                            <div className="absolute bottom-0 left-0 h-[1px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-1000"></div>
+                            <label className="text-[11px] tracking-[0.3em] text-primary uppercase font-bold mb-3 block group-focus-within/input:text-white transition-all duration-300">Tell Us Your Vision / Message</label>
+                            <div className="relative">
+                                <textarea
+                                    rows="4"
+                                    placeholder="HOW CAN WE ASSIST IN CURATING YOUR LEGACY?"
+                                    className="w-full bg-white/[0.03] border border-white/10 px-6 py-6 text-[11px] tracking-widest uppercase text-white outline-none focus:border-primary/50 focus:bg-white/[0.07] transition-all duration-500 font-medium placeholder:text-slate-600 resize-none"
+                                    value={formData.message}
+                                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                                    required
+                                ></textarea>
+                                <div className="absolute bottom-0 left-0 h-[2px] w-0 bg-primary group-focus-within/input:w-full transition-all duration-1000"></div>
+                            </div>
                         </div>
 
                         <button
                             type="submit"
                             disabled={status === 'loading'}
-                            className="w-full py-6 group/btn relative overflow-hidden flex items-center justify-center gap-4 transition-all duration-700"
+                            className="w-full py-7 group/btn relative overflow-hidden flex items-center justify-center gap-4 transition-all duration-700 shadow-[0_10px_30px_rgba(197,160,89,0.1)] hover:shadow-[0_15px_40px_rgba(197,160,89,0.2)]"
                         >
                             <div className="absolute inset-0 bg-primary group-hover/btn:bg-white transition-colors duration-500"></div>
                             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover/btn:translate-y-0 transition-transform duration-500"></div>
 
-                            <span className="relative z-10 text-white group-hover/btn:text-black font-bold tracking-[0.5em] uppercase text-xs transition-colors duration-500">
-                                {status === 'loading' ? 'Processing...' : 'Initiate Private Consultation'}
+                            <span className="relative z-10 text-white group-hover/btn:text-black font-bold tracking-[0.4em] uppercase text-xs transition-colors duration-500">
+                                {status === 'loading' ? 'TRANSMITTING INQUIRY...' : 'INITIATE PRIVATE CONSULTATION'}
                             </span>
                             <Send size={16} className="relative z-10 text-white group-hover/btn:text-black transition-all duration-500 group-hover/btn:-translate-y-1 group-hover/btn:translate-x-1" />
                         </button>

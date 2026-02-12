@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import axios from 'axios';
 import { ArrowRight } from 'lucide-react';
+import { API_URL } from '../config';
 
 const FeaturedProperties = () => {
     const [properties, setProperties] = useState([]);
@@ -9,7 +10,7 @@ const FeaturedProperties = () => {
     useEffect(() => {
         const fetchProperties = async () => {
             try {
-                const res = await axios.get('http://localhost:5000/api/properties');
+                const res = await axios.get(`${API_URL}/properties`);
                 setProperties(res.data.filter(p => p.featured));
             } catch (err) {
                 console.error('Error fetching properties:', err);

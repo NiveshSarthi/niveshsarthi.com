@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import axios from 'axios';
 import { Send, CheckCircle } from 'lucide-react';
+import { API_URL } from '../config';
 
 const FormContent = ({ isPage, formData, setFormData, status, handleSubmit }) => (
     <div className={`grid ${isPage ? 'lg:grid-cols-1' : 'lg:grid-cols-2'} gap-16 md:gap-24 items-center`}>
@@ -260,7 +261,7 @@ const ContactForm = ({ isPage = false }) => {
         e.preventDefault();
         setStatus('loading');
         try {
-            await axios.post('http://localhost:5000/api/contacts', formData);
+            await axios.post(`${API_URL}/contacts`, formData);
             setStatus('success');
             setFormData({
                 name: '', email: '', phone: '', subject: '',

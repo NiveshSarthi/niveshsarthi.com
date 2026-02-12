@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { LayoutDashboard, Building, MessageSquare, Plus, Trash2, Edit } from 'lucide-react';
+import { API_URL } from '../config';
 
 const Admin = () => {
     const [activeTab, setActiveTab] = useState('properties');
@@ -17,8 +18,8 @@ const Admin = () => {
 
     const fetchData = async () => {
         try {
-            const pRes = await axios.get('http://localhost:5000/api/properties');
-            const cRes = await axios.get('http://localhost:5000/api/contacts');
+            const pRes = await axios.get(`${API_URL}/properties`);
+            const cRes = await axios.get(`${API_URL}/contacts`);
             setProperties(pRes.data);
             setContacts(cRes.data);
         } catch (err) {
@@ -37,7 +38,7 @@ const Admin = () => {
                     area: newProperty.area
                 }
             };
-            await axios.post('http://localhost:5000/api/properties', propertyData);
+            await axios.post(`${API_URL}/properties`, propertyData);
             setIsAdding(false);
             fetchData();
         } catch (err) {
@@ -48,7 +49,7 @@ const Admin = () => {
     const handleDelete = async (id) => {
         if (window.confirm('Are you sure?')) {
             try {
-                await axios.delete(`http://localhost:5000/api/properties/${id}`);
+                await axios.delete(`${API_URL}/properties/${id}`);
                 fetchData();
             } catch (err) {
                 console.error(err);

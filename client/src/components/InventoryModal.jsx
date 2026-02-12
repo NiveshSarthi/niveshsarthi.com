@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Send, ArrowRight } from 'lucide-react';
 import axios from 'axios';
+import { API_URL } from '../config';
 
 const InventoryModal = ({ isOpen, onClose, property }) => {
     const [email, setEmail] = useState('');
@@ -18,7 +19,7 @@ const InventoryModal = ({ isOpen, onClose, property }) => {
         setStatus('loading');
         try {
             // Simplified lead capture for the modal
-            await axios.post('http://localhost:5000/api/contacts', {
+            await axios.post(`${API_URL}/contacts`, {
                 name: "Newsletter/Lead",
                 email: email,
                 phone: "N/A",

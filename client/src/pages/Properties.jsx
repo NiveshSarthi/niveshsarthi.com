@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import axios from 'axios';
 import { Search, Filter, Bed, Bath, Maximize, MapPin } from 'lucide-react';
+import { API_URL } from '../config';
 
 const Properties = () => {
     const [properties, setProperties] = useState([]);
@@ -10,7 +11,7 @@ const Properties = () => {
     useEffect(() => {
         const fetchProperties = async () => {
             try {
-                const res = await axios.get('http://localhost:5000/api/properties');
+                const res = await axios.get(`${API_URL}/properties`);
                 setProperties(res.data);
             } catch (err) {
                 console.error('Error fetching properties:', err);

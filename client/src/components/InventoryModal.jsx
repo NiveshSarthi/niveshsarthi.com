@@ -132,7 +132,7 @@ const InventoryModal = ({ isOpen, onClose, property }) => {
 
                             <div className="mt-12 text-center">
                                 <p className="text-[9px] text-slate-700 tracking-[0.3em] uppercase leading-relaxed font-bold">
-                                    Privacy Guaranteed | Exclusive Concierge | Direct Inquiries: +91 95600 31319
+                                    Privacy Guaranteed | Exclusive Concierge | Direct Inquiries: <a href="tel:+919560031319" className="hover:text-primary transition-colors">+91 95600 31319</a>
                                 </p>
                             </div>
 

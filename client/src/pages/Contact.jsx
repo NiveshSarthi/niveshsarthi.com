@@ -78,8 +78,15 @@ const Contact = () => {
                             </div>
                             <h4 className="text-white font-display text-xs tracking-widest uppercase mb-4 font-bold">Corporate HQ</h4>
                             <p className="text-slate-400 text-sm leading-relaxed font-serif">
-                                628~630, 6th Floor, Puri 81 Business Hub,<br />
-                                Sector 81, Faridabad, Haryana
+                                <a
+                                    href="https://www.google.com/maps/search/?api=1&query=Puri+81+Business+Hub,+Sector+81,+Faridabad"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:text-primary transition-colors"
+                                >
+                                    628~630, 6th Floor, Puri 81 Business Hub,<br />
+                                    Sector 81, Faridabad, Haryana
+                                </a>
                             </p>
                         </div>
 
@@ -90,7 +97,7 @@ const Contact = () => {
                             </div>
                             <h4 className="text-white font-display text-xs tracking-widest uppercase mb-4 font-bold">Luxe Concierge</h4>
                             <p className="text-slate-400 text-sm leading-relaxed font-serif">
-                                +91 95600 31319
+                                <a href="tel:+919560031319" className="hover:text-primary transition-colors">+91 95600 31319</a>
                             </p>
                         </div>
 
@@ -101,7 +108,7 @@ const Contact = () => {
                             </div>
                             <h4 className="text-white font-display text-xs tracking-widest uppercase mb-4 font-bold">Electronic Mail</h4>
                             <p className="text-slate-400 text-sm leading-relaxed font-serif">
-                                info.niveshsarthi@gmail.com
+                                <a href="mailto:info.niveshsarthi@gmail.com" className="hover:text-primary transition-colors">info.niveshsarthi@gmail.com</a>
                             </p>
                         </div>
 

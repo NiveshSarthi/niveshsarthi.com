@@ -20,7 +20,13 @@ exports.getPropertyById = async (req, res) => {
 };
 
 exports.createProperty = async (req, res) => {
-    const property = new Property(req.body);
+    const allowedFields = ['title', 'description', 'price', 'location', 'images', 'type', 'status', 'amenities', 'details', 'featured'];
+    const filteredBody = {};
+    allowedFields.forEach(field => {
+        if (req.body[field] !== undefined) filteredBody[field] = req.body[field];
+    });
+
+    const property = new Property(filteredBody);
     try {
         const newProperty = await property.save();
         res.status(201).json(newProperty);
@@ -31,7 +37,13 @@ exports.createProperty = async (req, res) => {
 
 exports.updateProperty = async (req, res) => {
     try {
-        const property = await Property.findByIdAndUpdate(req.params.id, req.body, { new: true });
+        const allowedFields = ['title', 'description', 'price', 'location', 'images', 'type', 'status', 'amenities', 'details', 'featured'];
+        const filteredBody = {};
+        allowedFields.forEach(field => {
+            if (req.body[field] !== undefined) filteredBody[field] = req.body[field];
+        });
+
+        const property = await Property.findByIdAndUpdate(req.params.id, filteredBody, { new: true });
         if (!property) return res.status(404).json({ message: 'Property not found' });
         res.status(200).json(property);
     } catch (error) {

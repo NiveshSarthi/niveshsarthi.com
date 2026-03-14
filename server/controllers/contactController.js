@@ -3,7 +3,13 @@ const emailService = require('../utils/emailService');
 
 exports.submitContactForm = async (req, res) => {
     try {
-        const contact = new Contact(req.body);
+        const allowedFields = ['name', 'email', 'phone', 'subject', 'budget', 'propertyType', 'location', 'referral', 'message'];
+        const filteredBody = {};
+        allowedFields.forEach(field => {
+            if (req.body[field] !== undefined) filteredBody[field] = req.body[field];
+        });
+
+        const contact = new Contact(filteredBody);
         const newContact = await contact.save();
 
         // Send Email Notification

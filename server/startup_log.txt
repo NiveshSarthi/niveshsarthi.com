@@ -1,0 +1,2748 @@
+﻿[dotenv@17.2.4] injecting env (10) from .env -- tip: ≡ƒ¢á∩╕Å  run anywhere with `dotenvx run -- yourcommand`
+Connected to MongoDB
+Server is running on port 5000
+node : TypeError: Cannot 
+set property query of 
+#<IncomingMessage> which 
+has only a getter
+At line:1 char:1
++ node index.js 2>&1 | 
+Out-File -FilePath 
+startup_log.txt -Encoding 
+utf ...
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+ :     NotSpecified: 
+(TypeError    : Cann...s 
+only a getter:    String) 
+[], RemoteExcepti    on
+    + 
+FullyQualifiedErrorId :    
+ NativeCommandError
+ 
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
+TypeError: Cannot set 
+property query of 
+#<IncomingMessage> which 
+has only a getter
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:113:18
+    at Array.forEach 
+(<anonymous>)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\express-mongo-sanitiz
+e\index.js:110:44
+    at Layer.handleRequest 
+(D:\NiveshSarthi\niveshsart
+hi.com\server\node_modules\
+router\lib\layer.js:152:17)
+    at trimPrefix (D:\Nives
+hSarthi\niveshsarthi.com\se
+rver\node_modules\router\in
+dex.js:342:13)
+    at D:\NiveshSarthi\nive
+shsarthi.com\server\node_mo
+dules\router\index.js:297:9
+    at processParams (D:\Ni
+veshSarthi\niveshsarthi.com
+\server\node_modules\router
+\index.js:582:12)
+    at next (D:\NiveshSarth
+i\niveshsarthi.com\server\n
+ode_modules\router\index.js
+:291:5)
+    at internalNext (D:\Niv
+eshSarthi\niveshsarthi.com\
+server\node_modules\helmet\
+index.cjs:531:6)
+    at 
+xXssProtectionMiddleware (D
+:\NiveshSarthi\niveshsarthi
+.com\server\node_modules\he
+lmet\index.cjs:311:3)
